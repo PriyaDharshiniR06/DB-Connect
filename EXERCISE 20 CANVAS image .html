@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html 1 canvas draw() method
+</title>
+</head>
+<body>
+<p> image:</p>
+<img id="csc" width="480" height="240"
+src="C:\Users\Student\Pictures\penguins.jpg" alt="computer"/>
+<p> canvas: </p>
+<canvas id="mypenguincanvas" width ="520"
+height ="300"
+style ="border: 1px solid # d3d3d3;">
+your browser is not supported for html canvas tag.
+</canvas>
+<script>
+window.onload=function () {
+var c=document.getElementById("?mypenguincanvas");
+var ctx=c.get context ("2d");
+var img= document.getElementById("penguin");
+ctx.drawimage(img,20,20);
+};
+</script>
+</body>
+</html>
